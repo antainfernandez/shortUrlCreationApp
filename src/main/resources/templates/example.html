@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Short Url Creation App</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<p th:text="'convert the original , ' + ${originalUrl.originalUrl}  " />
+<p th:text="'to a short url , ' + ${shortUrl}  " />
+
+<p th:text="'use  http://localhost:8081/api/v1/goToShortUrl/' + ${shortUrl}  "/>
+</body>
+</html>
