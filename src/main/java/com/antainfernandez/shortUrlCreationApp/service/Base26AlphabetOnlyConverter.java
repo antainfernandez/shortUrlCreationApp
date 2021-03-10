@@ -2,7 +2,7 @@ package com.antainfernandez.shortUrlCreationApp.service;
 
 /**
  * https://en.wikipedia.org/w/index.php?title=Hexavigesimal&oldid=578218059#Bijective_base-26
- * 
+ *
  * will do A,B,C, ....,Z,BA,BB, ....
  *         0,1, ...
  */

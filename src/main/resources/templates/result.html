@@ -10,11 +10,6 @@
 <p th:text="'Short url: ' + ${shortUrl}"/>
 
 
-<!--<p th:text="'http://localhost:8081/api/v1/goToShortUrl/' + ${shortUrl}"/>-->
-<!--<form action="#" th:action="@{/go2/${shortUrl}(id=${shortUrl})}" th:object="${shortUrl}" >-->
-<!--&lt;!&ndash;    <p>Original url: <input type="text" th:field="*{shortUrl}" /></p>&ndash;&gt;-->
-<!--    <p><input type="submit" value="Click to redirect" /> </p>-->
-<!--</form>-->
 <a th:href="@{/go2/{shortUrl}(shortUrl=${shortUrl})}"> redirect </i></a>
 <p />
 <a href="/convert">Convert other url</a>
