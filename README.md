@@ -20,8 +20,9 @@ expose port 8081 in case port 8080 already take it
   ```sh
   $ git clone https://github.com/antainfernandez/shortUrlCreationApp.git
   $ cd shortUrlCreationApp 
+  $ ./gradlew clean build
   $ docker build  -t antainfernandez/short:1.0 . --rm  
-  $ docker run -t -p 8081:8081 --name shortApp  antainfernande/short:1.0
+  $ docker run -t -p 8081:8081 --name shortApp  antainfernandez/short:1.0
   ```
   
      
